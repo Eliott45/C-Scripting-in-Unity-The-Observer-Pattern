@@ -16,7 +16,7 @@ public class DelegateTest : MonoBehaviour
 
     private void Start()
     {
-        _p("Delegate");
+        _p("DelegateTest");
     }
 
     private static void PrintData(string s)
