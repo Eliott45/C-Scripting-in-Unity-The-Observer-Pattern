@@ -4,8 +4,8 @@ public class Bomb : MonoBehaviour
 {
     public delegate void BombExplosionDelegate(Bomb bomb);
     public event BombExplosionDelegate BombExplosionEvent;
-
-    private void Start()
+    
+    private void FixedUpdate()
     {
         Explosion();
     }
